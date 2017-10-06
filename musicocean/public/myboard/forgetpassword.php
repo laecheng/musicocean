@@ -45,7 +45,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['email'])) {
 
       Please copy and paste this link to your browser to forward to next step:<br>
 
-      http://localhost/myboard/resetpassword.php?email='.$email.'&hash='.$hash.'<br>';
+      http://www.qooqles.com/myboard/resetpassword.php?email='.$email.'&hash='.$hash.'<br>';
 
       require './sendmail.php';
       include './views/email_sent.tpl';

@@ -26,7 +26,7 @@
 
     Please click this link to activate your account:
 
-    http://localhost/myboard/verify.php?email='.$email.'&hash='.$password;
+    http://www.qooqles.com/myboard/verify.php?email='.$email.'&hash='.$password;
 
     require './sendmail.php';
 

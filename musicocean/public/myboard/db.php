@@ -1,7 +1,7 @@
 <?php
 // config to login the database for this app
 define('DB_USER','root');
-define('DB_PASSWORD','');
+define('DB_PASSWORD','big12201591Apple!');
 define('DB_HOST','localhost');
 define('DB_NAME','db20170823');
 

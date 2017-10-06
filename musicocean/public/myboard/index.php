@@ -30,14 +30,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !$error) {
     /* Log in process goes here */
     if($_POST['user_submit'] == 'signin') {
         require 'login.php';
+        exit();
     }
     /* Register process goes here */
     else if ($_POST['user_submit'] == 'register') {
 
         require './check/email_exist_check.php';
         if($error == 1) {
-          require './views/signup.tpl';
-          exit;
+          include './views/signup.tpl';
+          exit();
         }
 
         require 'register.php';

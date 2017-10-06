@@ -237,7 +237,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 1) {
 
 <?php
     include './views/addBoardModal.tpl';
-    include './views/remindActiveModal.tpl';
+    include './views/remindactiveModal.tpl';
     include './views/footer.tpl';
 ?>
 

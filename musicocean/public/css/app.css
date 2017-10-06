@@ -103,6 +103,10 @@ body {
   }
 }
 
+.lead {
+  font-size: 2rem;
+
+}
 
 /*
  * Cover
