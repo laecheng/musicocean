@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    min-width: 500px;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1090px;
+    margin: auto;
+}
+
+.board img {
+    width: 100%;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#boardSection {
+    position: relative;
+}
+
+.board .container {
+    margin: 25px;;
+    margin-bottom: -1rem;
+}
+.soundBtn .material-icons {
+    visibility: hidden;
+    font-size: 150px !important;
+    color: #dddddd;
+    opacity: 0.75;
+}
+
+.sound {
+    max-width: 200px;
+    margin: auto;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper > div {
+    position: absolute;
+    left:22px;
+    top:22px;
+}
+.soundBtn span {
+    margin-right: 1.5rem;
+    font-size: 3rem;
+}
+@media screen and (min-width: 1100px) {
+  .board {
+      max-width: 1090px !important;
+  }
+  .board > .container {
+      width:220px !important;
+      margin-bottom: 2rem !important;
+  }
+  .board img {
+      width: 190px !important;
+      height: 190px !important;
+  }
+  header > h1 {
+      font-size: 3rem ;
+  }
+  header > p {
+      font-size: 2rem ;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 970px) {
+  .board {
+      max-width: 950px !important;
+  }
+  .board > .container {
+
+      width:260px !important;
+      margin-bottom: 2rem !important;
+  }
+  .soundBtn .material-icons {
+      font-size: 200px !important;
+  }
+  .board img {
+      width: 230px !important;
+      height: 230px !important;
+  }
+  header > h1 {
+      font-size: 2rem ;
+  }
+  header > p {
+      font-size: 1.5rem ;
+  }
+}
+@media screen and (max-width: 970px) and (min-width: 820px) {
+  .board {
+      max-width: 800px !important;
+  }
+  .board > .container {
+      width:340px !important;
+      margin-bottom: 2rem !important;
+  }
+  .board img {
+      width: 310px !important;
+      height: 310px !important;
+  }
+  .soundBtn .material-icons {
+      font-size: 270px !important;
+  }
+  header > h1 {
+      font-size: 1.8rem ;
+  }
+  header > p {
+      font-size: 1.3rem ;
+  }
+}
+@media screen and (max-width: 820px)  {
+  .board {
+      max-width: 500px !important;
+  }
+  .board > .container {
+
+      width:460px !important;
+      margin-bottom: 2rem !important;
+  }
+  .soundBtn .material-icons {
+      font-size: 320px !important;
+  }
+  .board img {
+      width: 420px !important;
+      height: 420px !important;
+  }
+  #grid .wrapper > div {
+
+      left:60px;
+      top:60px;
+  }
+  header > h1 {
+      font-size: 1.8rem ;
+  }
+  header > p {
+      display: none;
+  }
+  nav > form  {
+      display: none;
+  }
+}
+footer{
+  text-align: center;
+  margin-top: 350px;
+  padding: 3px;
+  color: #fff;
+  background-color: #333
+}

@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/images/home.jpg");
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #1ab188;
+}
+.form {
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.error {
+  color: red;
+}
+.forgot {
+  color: #1ab188;
+  text-align: right;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 0 30px;
+}
+
+label {
+  left: 10px;
+  top: 2px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 22px;
+}
+
+label .req {
+  margin: 2px;
+  color: #1ab188;
+}
+div.info {
+  color: white;
+  display: box;
+  text-align: center;
+  padding: 5px;
+  margin-top: -20px;
+  margin-bottom: 15px;
+  border: 1px solid green;
+  background: #39dd78
+}
+div.errorinfo {
+    color: pink;
+    display: box;
+    text-align: center;
+    padding: 5px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    background: #66131c;
+}
+input{
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  -webkit-transition: border-color .25s ease;
+}
+input:focus{
+  outline: 0;
+  border-color: #1ab188;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  background: #179b77;
+}
+
+.button-block {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}

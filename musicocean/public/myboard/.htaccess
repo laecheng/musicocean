@@ -1,0 +1,55 @@
+<Files *.php>
+    Require all denied
+</Files>
+
+<Files *.tpl>
+    Require all denied
+</Files>
+
+<Files *.inc>
+    Require all denied
+</Files>
+
+<Files sendmail.php>
+    Require all granted
+</Files>
+
+<Files board_change.php>
+    Require all granted
+</Files>
+
+<Files action.php>
+    Require all granted
+</Files>
+
+<Files resetpassword.php>
+    Require all granted
+</Files>
+
+<Files verify.php>
+    Require all granted
+</Files>
+
+<Files index.php>
+    Require all granted
+</Files>
+
+<Files forgetpassword.php>
+    Require all granted
+</Files>
+
+<Files soundboard.php>
+    Require all granted
+</Files>
+
+<Files editboard.php>
+    Require all granted
+</Files>
+
+<Files logout.php>
+    Require all granted
+</Files>
+
+<Files error.php>
+    Require all granted
+</Files>
