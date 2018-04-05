@@ -7,3 +7,5 @@
   - Visit [MusicOcean](https://qooqles.com/) homepage and register to be an active user
   - Discover and share your favorite music
 
+# Requiremnt
+  - This Web application require to use the cookie to store you login state
